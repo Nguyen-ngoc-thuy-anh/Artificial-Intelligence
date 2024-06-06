@@ -1,16 +1,15 @@
 ĐỒ ÁN SỬ DỤNG THUẬT TOÁN THAM LAM (GREEDY ALGORITHM) ĐỂ GIẢI QUYẾT BÀI TOÁN FRACTIONAL KNAPSACK (BÀI TOÁN CÁI TÚI DẠNG PHÂN SỐ)
 Giới Thiệu
-Kho lưu trữ này chứa một triển khai của bài toán Knapsack Phân Số, một vấn đề tối ưu hóa kinh điển, sử dụng thuật toán Tham Lam. Nó bao gồm một giao diện thân thiện với người dùng được xây dựng bằng PyQt6 để cho phép người dùng nhập các tham số vấn đề, thêm các mặt hàng và trực quan hóa giải pháp.
+Nội dung đồ án này đưa ra một triển khai của bài toán Knapsack Phân Số sử dụng thuật toán Tham Lam. Đồ án cũng bao gồm một giao diện thân thiện với người dùng được xây dựng bằng PyQt6 để cho phép người dùng nhập các tham số của bài toán, thêm các đồ vật và trực quan hóa giải pháp.
 
-Mô Tả Vấn Đề
+Mô Tả Vấn Đề:
 Bài toán Knapsack Phân Số có thể được mô tả như sau:
 - Đầu vào: Một tập hợp các đồ vật, mỗi đồ vậtg có trọng lượng và giá trị, và một trọng lượng tối đa cho túi.
 - Đầu ra: Lựa chọn tối ưu các phần của đồ vật để bỏ vào trong túi sao cho tổng trọng lượng không vượt quá khả năng chứa và tổng giá trị được tối đa hóa.
 Khác với bài toán cái túi dạng 0/1, các đồ vật có thể bị chia nhỏ thành các phần nhỏ hơn và bất kỳ phần nào của một đồ vật cũng có thể được bao gồm trong túi.
 
-Phương Pháp
-Dự án này sử dụng Thuật Toán Tham Lam để giải quyết bài toán Fractional Knapsack (Bài toán cái túi dạng phân số).
-Các bước như sau:
+Phương Pháp:
+Đồ án này sử dụng Thuật Toán Tham Lam để giải quyết bài toán Fractional Knapsack (Bài toán cái túi dạng phân số). Các bước như sau:
 - Tính đơn giá bằng cách lấy tỷ lệ giá trị trên trọng lượng cho mỗi đồ vật.
 - Sắp xếp các đồ vật theo tỷ lệ này theo thứ tự giảm dần.
 - Bắt đầu bỏ các đồ vật vào túi từ tỷ lệ cao nhất cho đến khi túi đầy hoặc tất cả các đồ vật đã được xem xét.
