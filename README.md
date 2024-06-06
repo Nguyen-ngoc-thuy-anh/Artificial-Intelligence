@@ -1,4 +1,4 @@
-ĐỒ ÁN SỬ DỤNG THUẬT TOÁN GREEDY ĐỂ GIẢI QUYẾT BÀI TOÁN FRACTIONAL KNAPSACK (BÀI TOÁN CÁI TÚI DẠNG PHÂN SỐ)
+ĐỒ ÁN SỬ DỤNG THUẬT TOÁN THAM LAM (GREEDY ALGORITHM) ĐỂ GIẢI QUYẾT BÀI TOÁN FRACTIONAL KNAPSACK (BÀI TOÁN CÁI TÚI DẠNG PHÂN SỐ)
 Giới Thiệu
 Kho lưu trữ này chứa một triển khai của bài toán Knapsack Phân Số, một vấn đề tối ưu hóa kinh điển, sử dụng thuật toán Tham Lam. Nó bao gồm một giao diện thân thiện với người dùng được xây dựng bằng PyQt6 để cho phép người dùng nhập các tham số vấn đề, thêm các mặt hàng và trực quan hóa giải pháp.
 
