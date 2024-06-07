@@ -1,11 +1,11 @@
 ĐỒ ÁN SỬ DỤNG THUẬT TOÁN THAM LAM (GREEDY ALGORITHM) ĐỂ GIẢI QUYẾT BÀI TOÁN FRACTIONAL KNAPSACK (BÀI TOÁN CÁI TÚI DẠNG PHÂN SỐ)
 
 Giới Thiệu:
-Nội dung đồ án này đưa ra một triển khai của bài toán Knapsack Phân Số sử dụng thuật toán Tham Lam. Đồ án cũng bao gồm một giao diện thân thiện với người dùng được xây dựng bằng PyQt6 để cho phép người dùng nhập các tham số của bài toán, thêm các đồ vật và trực quan hóa giải pháp.
+Nội dung đồ án này đưa ra một triển khai của bài toán cái túi dạng phân số sử dụng thuật toán Tham Lam. Đồ án cũng bao gồm một giao diện thân thiện với người dùng được xây dựng bằng PyQt6 để cho phép người dùng nhập các tham số của bài toán, thêm các đồ vật và trực quan hóa giải pháp.
 
 Mô Tả Vấn Đề:
-Bài toán Knapsack Phân Số có thể được mô tả như sau:
-- Đầu vào: Một tập hợp các đồ vật, mỗi đồ vậtg có trọng lượng và giá trị, và một trọng lượng tối đa cho túi.
+Bài toán cái túi dạng phân số có thể được mô tả như sau:
+- Đầu vào: Một tập hợp các đồ vật, mỗi đồ vật có trọng lượng và giá trị, và một trọng lượng tối đa cho túi.
 - Đầu ra: Lựa chọn tối ưu các phần của đồ vật để bỏ vào trong túi sao cho tổng trọng lượng không vượt quá khả năng chứa và tổng giá trị được tối đa hóa.
 Khác với bài toán cái túi dạng 0/1, các đồ vật có thể bị chia nhỏ thành các phần nhỏ hơn và bất kỳ phần nào của một đồ vật cũng có thể được bao gồm trong túi.
 
@@ -23,7 +23,7 @@ Tính Năng:
 - Khả năng thêm và xóa các đồ vật một cách linh hoạt.
 
 Các File Code:
-Dự án này bao gồm ba file code:
+Đồ án bao gồm ba file code:
 - Knapsack_Solving.py: Chứa lớp Knapsack với chức năng triển khai Thuật Toán Tham Lam.
 - Knapsack_App.py: Triển khai giao diện PyQt6 để tương tác với người dùng.
 - Knapsack_main.py: Đầu vào của ứng dụng.
